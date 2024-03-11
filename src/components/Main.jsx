@@ -44,7 +44,7 @@ export default function Main() {
               <Col xs={6} md={4}>
                 <div>
                   <Image
-                    src="~/src/components/format.png"
+                    src="./images/format.png"
                     roundedCircle
                     style={{ width: "280px", height: "280px" }}
                   />
