@@ -6,6 +6,8 @@ import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
 import CardGroup from "react-bootstrap/CardGroup";
 import Col from "react-bootstrap/Col";
+import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -39,13 +41,16 @@ export default function Main() {
         <>
           <div style={{ textAlign: "center", paddingTop: "20px" }}>
             <Figure>
-              <Figure.Image
-                width={260}
-                height={180}
-                alt="171x180"
-                roundedCircle
-                src="./src/components/format.jpeg"
-              />
+              <Col xs={0} md={0}>
+                <div>
+                  <Image
+                    src="./src/components/format.png"
+                    roundedCircle
+                    style={{ width: "250px", height: "250px" }}
+                  />
+                </div>
+              </Col>
+
               <Figure.Caption style={{ color: "black" }}>
                 <div
                   style={{
@@ -59,7 +64,8 @@ export default function Main() {
                       Mohammed <span style={{ color: "red" }}>Sajjadul</span>
                     </span>
                     <br />
-                    Full Stack<span style={{ color: "red" }}> Developer </span>
+                    Full Stack
+                    <span style={{ color: "red" }}> Developer </span>
                     <br />
                     <span style={{ color: "Red" }}>N</span>orthcoder Graduate
                     <br />

@@ -5,18 +5,21 @@ import React, { useState } from "react";
 
 function Homepage() {
   return (
-    <section>
-      <Header text="Welcome to Sajjadul Mohammed's Portfolio" />
+    <section style={{ textAlign: "center" }}>
       <div
         style={{
-          justifyContent: "center",
-          alignItems: "center",
-          display: "flex",
+          margin: "auto",
+          width: "640px",
+          padding: "80px",
+          maxWidth: "90%",
         }}
       >
-        <Link to="/main">
-          <Button variant="outline-light">Enter!</Button>
-        </Link>
+        <Header text="Welcome to Sajjadul Mohammed's Portfolio" />
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <Link to="/main">
+            <Button variant="outline-light">Enter!</Button>
+          </Link>
+        </div>
       </div>
     </section>
   );
