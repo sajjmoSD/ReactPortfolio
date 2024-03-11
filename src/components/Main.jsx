@@ -41,12 +41,12 @@ export default function Main() {
         <>
           <div style={{ textAlign: "center", paddingTop: "20px" }}>
             <Figure>
-              <Col xs={0} md={0}>
+              <Col xs={6} md={4}>
                 <div>
                   <Image
-                    src="./src/components/format.png"
+                    src="~/src/components/format.png"
                     roundedCircle
-                    style={{ width: "250px", height: "250px" }}
+                    style={{ width: "280px", height: "280px" }}
                   />
                 </div>
               </Col>
