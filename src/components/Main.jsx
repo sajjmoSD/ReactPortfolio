@@ -4,11 +4,10 @@ import Figure from "react-bootstrap/Figure";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
 import Card from "react-bootstrap/Card";
-import CardGroup from "react-bootstrap/CardGroup";
 import Col from "react-bootstrap/Col";
-import Container from "react-bootstrap/Container";
 import Image from "react-bootstrap/Image";
 import Row from "react-bootstrap/Row";
+import formatImage from "../../images/format.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -44,7 +43,7 @@ export default function Main() {
               <Col xs={6} md={4}>
                 <div>
                   <Image
-                    src="./images/format.png"
+                    src="../../images/format.jpeg"
                     roundedCircle
                     style={{ width: "280px", height: "280px" }}
                   />
